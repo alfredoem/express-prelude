@@ -1,0 +1,39 @@
+{
+  "name": "express-prelude",
+  "version": "0.1.0",
+  "description": "Express Prelude ( example )",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredoem/express-prelude.git"
+  },
+  "keywords": [
+    "express",
+    "javascript",
+    "js",
+    "nodejs",
+    "node",
+    "gulp"
+  ],
+  "author": "alfredoem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfredoem/express-prelude/issues"
+  },
+  "homepage": "https://github.com/alfredoem/express-prelude#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6",
+    "page": "^1.7.1",
+    "path": "^0.12.7",
+    "pug": "^0.1.0",
+    "yo-yo": "^1.2.0"
+  },
+  "devDependencies": {
+    "cssnano": "^3.6.2",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1"
+  }
+}
