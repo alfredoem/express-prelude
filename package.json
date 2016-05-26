@@ -23,6 +23,8 @@
   "homepage": "https://github.com/alfredoem/express-prelude#readme",
   "dependencies": {
     "express": "^4.13.4",
+    "jquery": "^2.2.4",
+    "material-design-icons": "^2.2.3",
     "materialize-css": "^0.97.6",
     "page": "^1.7.1",
     "path": "^0.12.7",
@@ -30,10 +32,18 @@
     "yo-yo": "^1.2.0"
   },
   "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
     "cssnano": "^3.6.2",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.2",
+    "gulp-minify-css": "^1.2.4",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.1"
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   }
 }
