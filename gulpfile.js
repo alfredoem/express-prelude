@@ -9,6 +9,7 @@ var source = require('vinyl-source-stream');
 var watchify = require('watchify');
 var buffer = require('vinyl-buffer');
 var concat = require('gulp-concat');
+var imagemin = require('gulp-imagemin');
 
 
 var thirdParty = [
@@ -78,6 +79,15 @@ var bundleInconMaterial = function() {
 }
 
 
+var bundleImagesSlotGames = function() {
+    
+    return gulp.src('./resources/assets/images/slot-games/*.jpg')
+            .pipe(imagemin())
+            .pipe(gulp.dest('./public/images/slot-games-optimized'));
+    
+} 
+
+
 
 gulp.task('bundle-script', function(){
     return bundleScript();
@@ -93,7 +103,12 @@ gulp.task('bundle-script-tp', function(){
     bundleScriptTp();
 })
 
-gulp.task('default', ['bundle-script', 'bundle-material', 'bundle-script-tp']);
+gulp.task('bundle-images-slot-games', function(){
+   bundleImagesSlotGames(); 
+});
+
+gulp.task('default', ['bundle-script', 'bundle-material', 'bundle-script-tp',
+                        'bundle-images-slot-games']);
 
 
 gulp.task('watch', function(){ return bundleScript(true)});

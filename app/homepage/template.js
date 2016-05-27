@@ -6,7 +6,7 @@ module.exports = function (data) {
                 ${data.map(function(row){
                     return  yo`<div class="content-game waves-effect        waves-light">
                     <div class="game-picture">
-                            <img class="image-game" src="images/slot-games/${row.gameId}.jpg">
+                            <div class="image-game" style="display: block; background-image: url('images/slot-games/${row.gameId}.jpg');"></div>
                             <div class="tittle-game">
                                 ${row.name}
                             </div>
