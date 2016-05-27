@@ -5,16 +5,16 @@ var el = yo`<nav>
       <a href="#!" class="brand-logo">Rewrite</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="javascript:void(0)">A</a></li>
+        <li><a href="javascript:void(0)">B</a></li>
+        <li><a href="javascript:void(0)">C</a></li>
+        <li><a href="javascript:void(0)">D</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="javascript:void(0)">A</a></li>
+        <li><a href="javascript:void(0)">B</a></li>
+        <li><a href="javascript:void(0)">C</a></li>
+        <li><a href="javascript:void(0)">D</a></li>
       </ul>
     </div>
   </nav>`;
